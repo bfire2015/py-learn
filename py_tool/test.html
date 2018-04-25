@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0134)https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432523496782e0946b0f454549c0888d05959b99860f000 -->
+<html xmlns:itranswarp="http://www.itranswarp.com/" xmlns:wb="http://open.weibo.com/wb" class="uk-notouch">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>代码运行助手</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./all.css">
+    <script src="./all.js"></script>
+	<style>
+	.x-center {
+		margin: 0;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-left: 0px;
+	}
+	</style>
+</head>
+
+<body>
+    <div id="main">
+<div class="x-center">                       
+<h3>测试工具</h3>
+<div class="diyBtn" style="position: static; display: block;">
+<span id="appendBtn">
+<div>
+	<input type="button" class="uk-button uk-button-primary" fun="php.save" value="加入收藏">
+	<input type="button" class="uk-button uk-button-primary" fun="php.list" value="查看收藏">
+
+    <input type="file" id="files" style="display:none" onchange="imports();"/>
+    <input type="button" class="uk-button uk-button-primary" id="import" value="历史记录">
+</div>
+</span></div>
+<form class="uk-form uk-form-stack" action="#">
+<pre id="pre-online-run-code-1" style="font-size: 14px; margin-bottom: 0px; border-bottom: none; padding: 6px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;">
+#需要支持HTML5的浏览器(IE &gt;= 9,Firefox,Chrome,Sarafi)
+</pre>
+	<textarea id="textarea-online-run-code-1" onkeyup="adjustTextareaHeight(this)" class="uk-width-1-1 x-codearea" rows="10" style=""></textarea>
+	<button type="button" onclick="run_python(&#39;online-run-code-1&#39;, this)" class="uk-button uk-button-danger" style="margin-top:15px;">Run</button>
+</form>
+如果需要删除缓存文件，则可删除以下目录文件
+C:\Users\BfireLai\AppData\Local\Temp\learn_python_odkrhto__py
+</div>
+</div>
+
+<script type="text/javascript" src="./FileSaver.js" charset="utf-8"></script>
+<script>
+$("#import").click(function(){//点击导入按钮，使files触发点击事件，然后完成读取文件的操作。
+        $("#files").click();
+    });
+
+function imports(){
+    var selectedFile = document.getElementById("files").files[0];//获取读取的File对象
+    var name = selectedFile.name;//读取选中文件的文件名
+    var size = selectedFile.size;//读取选中文件的大小
+    console.log("文件名:"+name+"大小："+size);
+
+    var reader = new FileReader();//这里是核心！！！读取操作就是由它完成的。
+    reader.readAsText(selectedFile);//读取文件的内容
+
+    reader.onload = function(){
+        console.log(this.result);//当读取完成之后会回调这个函数，然后此时文件的内容存储到了result中。直接操作即可。
+    };
+}
+
+function exports(txt){
+    //var blob = new Blob([txt], {type: "text/plain;charset=utf-8"});
+    //saveAs(blob, "F:/tool/py/py_tool/log/histiy.log");//saveAs(blob,filename)
+	var file = new File([txt], "histiy.log", { type: "text/plain;charset=utf-8" });
+    saveAs(file);
+}
+
+</script>
+</body></html>
