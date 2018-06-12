@@ -39,8 +39,9 @@ yesterday = today - datetime.timedelta(days=1)
 # 明天结束时间戳
 #tomorrow_end_time = int(time.mktime(time.strptime(str(acquire), '%Y-%m-%d'))) - 1
 
-
-path = "./boss.json"  # 数据文件路径
+doc = './boss20180611.json'
+newdoc = 'newboss20180611.json'
+path = doc  # 数据文件路径
 file = open(path, 'r', encoding='utf-8')
 json_info = json.load(file)
 
@@ -68,6 +69,13 @@ for js_obj in json_info:
 	obj['wtime'] = js_obj['wtime'][1]
 
 	#print(js_obj['title'][0])
-	print(obj)
-print('all the end')
+	#print(obj)
+#print('all the end')
 #print(json_info)
+#数据保存
+with open(newdoc, 'w', encoding='utf-8') as f:
+	# indent 超级好用，格式化保存字典，默认为None，小于0为零个空格
+	# f.write(json.dumps(json_info, indent=4))
+	json.dump(json_info, f, indent=4)   # 和上面的效果一样
+
+print('all the end')
