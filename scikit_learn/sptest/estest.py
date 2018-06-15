@@ -48,7 +48,7 @@ print('create doc befor')
 	#print(hit['_source'])
 #	pass
 
-newdoc = './newboss20180611.json'
+newdoc = './newboss20180615.json'
 path = newdoc  # 数据文件路径
 file = open(path, 'r', encoding='utf-8')
 json_info = json.load(file)
