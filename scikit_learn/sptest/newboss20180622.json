@@ -1,0 +1,302 @@
+[
+    {
+        "title": "\u548c\u800c\u6cf0 419 Lab \u4eba\u5de5\u667a\u80fd\u4ea7\u54c1\u7ecf\u7406",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "1-3\u5e74",
+        "company": "\u548c\u800c\u6cf0",
+        "ptime": "06\u670826\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u8bad\u7ec3\u5e08",
+        "money": "7k-14k",
+        "descs": "7k-14k",
+        "wtime": "1-3\u5e74",
+        "company": "Webot",
+        "ptime": "06\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\uff0c\u7b97\u6cd5\uff0cNLP\uff0c\u77e5\u8bc6\u56fe\u8c31\u7b49",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670820\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u79d1\u5b66\u5bb6",
+        "money": "30k-60k",
+        "descs": "30k-60k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670819\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u535a\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u7b97\u6cd5\u5de5\u7a0b\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670819\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u67b6\u6784\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd/\u7b97\u6cd5-\u5de5\u7a0b\u5e08",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u67b6\u6784\u5e08",
+        "money": "10k-20k",
+        "descs": "10k-20k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u6df1\u5733\u534e\u4e3a",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "Java\uff08AI\u3001\u5927\u6570\u636e\u3001\u4e91\u5e73\u53f0\uff0c\u533a\u5757\u94fe\u9879\u76ee\uff09",
+        "money": "16k-31k",
+        "descs": "16k-31k",
+        "wtime": "3-5\u5e74",
+        "company": "\u8f6f\u901a\u52a8\u529b",
+        "ptime": "06\u670812\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u5e73\u9762\u8bbe\u8ba1\u5e08\uff08PS/AI/CDR\uff09",
+        "money": "4k-5k",
+        "descs": "4k-5k",
+        "wtime": "1\u5e74\u4ee5\u5185",
+        "company": "\u539a\u62d3\u79d1\u6280",
+        "ptime": "06\u670813\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "AI\u667a\u80fd\u6d4b\u8bd5\u5de5\u7a0b\u5e08",
+        "money": "30k-50k",
+        "descs": "30k-50k",
+        "wtime": "3-5\u5e74",
+        "company": "vivo",
+        "ptime": "05\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u6e38\u620fAI\u9ad8\u7ea7\u7b97\u6cd5\u5de5\u7a0b\u5e08\uff08\u6df1\u5733\uff09",
+        "money": "29k-58k",
+        "descs": "29k-58k",
+        "wtime": "3-5\u5e74",
+        "company": "\u817e\u8baf",
+        "ptime": "06\u670812\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u9500\u552e\u4e13\u5458",
+        "money": "4k-8k",
+        "descs": "4k-8k",
+        "wtime": "1-3\u5e74",
+        "company": "\u6709\u7535\u7269\u8054",
+        "ptime": "06\u670826\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u534e\u4e3a\u5927\u6570\u636e\u6216AI\u4eba\u5de5\u667a\u80fd\u5c97\u4f4d\u62db\u8058",
+        "money": "41k-82k",
+        "descs": "41k-82k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670811\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "Python\u5de5\u7a0b\u5e08\uff08\u4eba\u5de5\u667a\u80fd\u65b9\u5411\uff09",
+        "money": "8k-16k",
+        "descs": "8k-16k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u8d1d\u5c14\u4fe1\u606f",
+        "ptime": "05\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u7b97\u6cd5\u4e13\u5bb6",
+        "money": "25k-40k",
+        "descs": "25k-40k",
+        "wtime": "5-10\u5e74",
+        "company": "\u5c0f\u6613\u667a\u6295",
+        "ptime": "06\u670813\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u5e73\u53f0Python/Tensorflow\u5de5\u7a0b\u5e08",
+        "money": "25k-50k",
+        "descs": "25k-50k",
+        "wtime": "3-5\u5e74",
+        "company": "vivo",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\uff0c\u6570\u636e\u5206\u6790\u5e08\uff0c\u6570\u636e\u6316\u6398\u7b49",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670826\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd/\u7b97\u6cd5-\u5de5\u7a0b\u5e08",
+        "money": "25k-40k",
+        "descs": "25k-40k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670803\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u56e2\u961f\u4eba\u5de5\u5e72\u9884\u5c97",
+        "money": "5k-6k",
+        "descs": "5k-6k",
+        "wtime": "1\u5e74\u4ee5\u5185",
+        "company": "\u4ebf\u8d77\u878d\u7f51\u7edc\u79d1\u6280",
+        "ptime": "06\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u9ad8\u7ea7\u4ea7\u54c1\u7ecf\u7406\uff08\u4eba\u5de5\u667a\u80fd\uff09",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "5-10\u5e74",
+        "company": "\u745e\u4e3a\u6280\u672f",
+        "ptime": "06\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u8bbe\u8ba1\u5e08",
+        "money": "8k-15k",
+        "descs": "8k-15k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u94fe\u6295\u8d44\u54a8\u8be2",
+        "ptime": "06\u670813\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u9ad8\u7ea7\u4ea7\u54c1\u7ecf\u7406\uff08\u6d77\u5916AI\u8f93\u5165\u6cd5\uff09",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "3-5\u5e74",
+        "company": "\u767e\u5ea6",
+        "ptime": "06\u670815\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u6d4b\u8bd5\u5de5\u7a0b\u5e08\uff08\u5927\u6570\u636e\uff0c\u4e91\u5e73\u53f0\uff0cAI\uff0c\u533a\u5757\u94fe\uff09",
+        "money": "15k-28k",
+        "descs": "15k-28k",
+        "wtime": "3-5\u5e74",
+        "company": "\u8f6f\u901a\u52a8\u529b",
+        "ptime": "06\u670809\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u9500\u552e\u7ecf\u7406",
+        "money": "7k-14k",
+        "descs": "7k-14k",
+        "wtime": "3-5\u5e74",
+        "company": "\u6b66\u6c49\u6cf0\u8fea\u667a\u6167",
+        "ptime": "06\u670812\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "AI\u6570\u636e\u6846\u67b6\u9ad8\u7ea7\u5de5\u7a0b\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u5de5\u7a0b\u5e08",
+        "money": "7k-14k",
+        "descs": "7k-14k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u4e2d\u667a\u4eba\u5de5\u667a\u80fd",
+        "ptime": "05\u670816\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u79d1\u5b66\u5bb6",
+        "money": "60k-100k",
+        "descs": "60k-100k",
+        "wtime": "5-10\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "05\u670829\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u535a\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd/\u7b97\u6cd5\u5de5\u7a0b\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u79d1\u5b66\u5bb6",
+        "money": "25k-50k",
+        "descs": "25k-50k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u535a\u58eb"
+    }
+]

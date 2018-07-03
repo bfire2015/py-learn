@@ -23,7 +23,7 @@ es = Elasticsearch([{'host':'192.168.56.104', 'port':9200}])
 #online
 #es = Elasticsearch([{'host':'120.79.82.52', 'port':9200}])
 indexs = time.strftime("%Y-%m")
-#indexs = '2018-04'
+#indexs = '2018-07php'
 if es.indices.exists(index=indexs) is not True:
 	es.indices.create(index=indexs)
 
@@ -48,11 +48,12 @@ print('create doc befor')
 	#print(hit['_source'])
 #	pass
 
-newdoc = './newboss20180615.json'
+newdoc = './newbossphp20180703.json'
 path = newdoc  # 数据文件路径
 file = open(path, 'r', encoding='utf-8')
 json_info = json.load(file)
 doctype = 'boss'
+#doctype = 'bossphp'
 #print(json_info)
 for i in json_info:
 	#print(i)

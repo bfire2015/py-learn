@@ -39,8 +39,8 @@ yesterday = today - datetime.timedelta(days=1)
 # 明天结束时间戳
 #tomorrow_end_time = int(time.mktime(time.strptime(str(acquire), '%Y-%m-%d'))) - 1
 
-doc = './boss20180615.json'
-newdoc = 'newboss20180615.json'
+doc = './bossphp20180703.json'
+newdoc = 'newbossphp20180703.json'
 path = doc  # 数据文件路径
 file = open(path, 'r', encoding='utf-8')
 json_info = json.load(file)
