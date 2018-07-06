@@ -1,0 +1,302 @@
+[
+    {
+        "title": "\u534e\u4e3a\u5927\u6570\u636e\u6216AI\u4eba\u5de5\u667a\u80fd\u5c97\u4f4d\u62db\u8058",
+        "money": "41k-82k",
+        "descs": "41k-82k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670811\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u79d1\u5b66\u5bb6",
+        "money": "60k-100k",
+        "descs": "60k-100k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u5c0f\u5e93\u79d1\u6280",
+        "ptime": "06\u670808\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u535a\u58eb"
+    },
+    {
+        "title": "AI\u6570\u636e\u6846\u67b6\u9ad8\u7ea7\u5de5\u7a0b\u5e08",
+        "money": "2k-4k",
+        "descs": "2k-4k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI \u7ca4\u8bed\u6d4b\u8bd5\u4eba\u5458",
+        "money": "5k-7k",
+        "descs": "5k-7k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u5317\u4eac\u7eac\u521b",
+        "ptime": "06\u670808\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u6e38\u620fAI\u9ad8\u7ea7\u7b97\u6cd5\u5de5\u7a0b\u5e08\uff08\u6df1\u5733\uff09",
+        "money": "29k-58k",
+        "descs": "29k-58k",
+        "wtime": "3-5\u5e74",
+        "company": "\u817e\u8baf",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "Java\uff08AI\u3001\u5927\u6570\u636e\u3001\u4e91\u5e73\u53f0\uff0c\u533a\u5757\u94fe\u9879\u76ee\uff09",
+        "money": "16k-31k",
+        "descs": "16k-31k",
+        "wtime": "3-5\u5e74",
+        "company": "\u8f6f\u901a\u52a8\u529b",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "AI\u7814\u7a76\u5458",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "1-3\u5e74",
+        "company": "\u5e73\u5b89\u94f6\u884c",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "AI\u5f00\u53d1\u5de5\u7a0b\u5e08\uff08\u795e\u7ecf\u7f51\u7edc\uff09",
+        "money": "18k-36k",
+        "descs": "18k-36k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670811\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u5de5\u7a0b\u5e08",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670811\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u4ea7\u54c1\u7ecf\u7406",
+        "money": "30k-60k",
+        "descs": "30k-60k",
+        "wtime": "5-10\u5e74",
+        "company": "\u534e\u4e3a",
+        "ptime": "05\u670823\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u6d4b\u8bd5\u5de5\u7a0b\u5e08\uff08\u5927\u6570\u636e\uff0c\u4e91\u5e73\u53f0\uff0cAI\uff0c\u533a\u5757\u94fe\uff09",
+        "money": "15k-28k",
+        "descs": "15k-28k",
+        "wtime": "3-5\u5e74",
+        "company": "\u8f6f\u901a\u52a8\u529b",
+        "ptime": "06\u670809\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u82af\u7247\u7f16\u8bd1\u5668\u5de5\u7a0b\u5e08",
+        "money": "12k-24k",
+        "descs": "12k-24k",
+        "wtime": "1-3\u5e74",
+        "company": "\u9cb2\u4e91\u79d1\u6280",
+        "ptime": "06\u670815\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "\u9700\u6c42\u5206\u6790\uff08AI\uff0c\u5927\u6570\u636e\uff0c\u4eba\u5de5\u667a\u80fd\uff0c\u533a\u5757\u94fe\uff09",
+        "money": "16k-31k",
+        "descs": "16k-31k",
+        "wtime": "3-5\u5e74",
+        "company": "\u8f6f\u901a\u52a8\u529b",
+        "ptime": "06\u670807\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI LAB\u6df1\u5ea6\u5b66\u4e60\u7814\u7a76\u5458",
+        "money": "35k-70k",
+        "descs": "35k-70k",
+        "wtime": "3-5\u5e74",
+        "company": "\u817e\u8baf",
+        "ptime": "05\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u4ea7\u54c1\u7ecf\u7406",
+        "money": "15k-30k",
+        "descs": "15k-30k",
+        "wtime": "1-3\u5e74",
+        "company": "\u73af\u7403\u6613\u8d2d",
+        "ptime": "05\u670810\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u533a\u5757\u94feAI\u7a0b\u5e8f\u5458",
+        "money": "9k-18k",
+        "descs": "9k-18k",
+        "wtime": "1-3\u5e74",
+        "company": "\u6bd4\u7279\u5927\u9646",
+        "ptime": "06\u670811\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd/\u7b97\u6cd5\u5de5\u7a0b\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd-\u67b6\u6784\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "1-3\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "AI\u9500\u552e\u7ecf\u7406",
+        "money": "7k-14k",
+        "descs": "7k-14k",
+        "wtime": "3-5\u5e74",
+        "company": "\u6b66\u6c49\u6cf0\u8fea\u667a\u6167",
+        "ptime": "06\u670814\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "Python\u5de5\u7a0b\u5e08\uff08\u4eba\u5de5\u667a\u80fd\u65b9\u5411\uff09",
+        "money": "8k-16k",
+        "descs": "8k-16k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u8d1d\u5c14\u4fe1\u606f",
+        "ptime": "05\u670817\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u9500\u552e\u4e13\u5458",
+        "money": "4k-6k",
+        "descs": "4k-6k",
+        "wtime": "1-3\u5e74",
+        "company": "\u6709\u7535\u7269\u8054",
+        "ptime": "05\u670816\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "AI\u7269\u8054\u7f51\u4e91\u4ea7\u54c1\u7ecf\u7406",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "5-10\u5e74",
+        "company": "\u73ca\u53e3",
+        "ptime": "05\u670827\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u516c\u4f17\u53f7AI\u63d2\u753b\u8bbe\u8ba1\u5e08",
+        "money": "7k-10k",
+        "descs": "7k-10k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u8d5b\u96f7\u6587\u5316",
+        "ptime": "05\u670803\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u5927\u4e13"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u5e73\u53f0Python/Tensorflow\u5de5\u7a0b\u5e08",
+        "money": "25k-50k",
+        "descs": "25k-50k",
+        "wtime": "3-5\u5e74",
+        "company": "vivo",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u6570\u636e\u6807\u8bb0\u5e08",
+        "money": "1k-2k",
+        "descs": "1k-2k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u591a\u7ffc",
+        "ptime": "05\u670822\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u4e0d\u9650"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u5e73\u53f0C++\u5de5\u7a0b\u5e08",
+        "money": "25k-50k",
+        "descs": "25k-50k",
+        "wtime": "3-5\u5e74",
+        "company": "vivo",
+        "ptime": "06\u670804\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "AI\u3001\u4eba\u5de5\u667a\u80fd\u5de5\u7a0b\u5e08",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u534e\u4e3a\u6280\u672f\u6709\u9650\u516c\u53f8",
+        "ptime": "06\u670801\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    },
+    {
+        "title": "\u6e38\u620f\u4eba\u5de5\u667a\u80fd\u7814\u7a76\u5458\uff08\u6df1\u5733\uff09",
+        "money": "20k-40k",
+        "descs": "20k-40k",
+        "wtime": "3-5\u5e74",
+        "company": "\u817e\u8baf",
+        "ptime": "04\u670823\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u7855\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd\u79d1\u5b66\u5bb6",
+        "money": "60k-100k",
+        "descs": "60k-100k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u5c0f\u5e93\u79d1\u6280",
+        "ptime": "05\u670829\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u535a\u58eb"
+    },
+    {
+        "title": "\u4eba\u5de5\u667a\u80fd/\u7b97\u6cd5-\u5de5\u7a0b\u5e08",
+        "money": "25k-40k",
+        "descs": "25k-40k",
+        "wtime": "\u4e0d\u9650",
+        "company": "\u534e\u4e3a",
+        "ptime": "06\u670803\u65e5",
+        "address": "\u6df1\u5733",
+        "edu": "\u672c\u79d1"
+    }
+]
