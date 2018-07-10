@@ -1,0 +1,61 @@
+du -f
+  547  du -h
+  548  ds -sh
+  549  ds -h
+  550  df -h
+  551  yum -y install docker-io
+  552  service docker start
+  553  docker ps
+  554  service docker retstart
+  555  service docker restart
+  556  docker pull docker.elastic.co/elasticsearch/elasticsearch:6.2.4
+  557  docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.2.4
+  558  docker ps
+  559  df -h
+  560  docker ps
+  561  cd /usr/
+  562  ll
+  563  cd /usr/local/
+  564  ll
+  565  find / -name kibana
+  566  pwd
+  567  cd /var/local/
+  568  ll
+  569  ls
+  570  cd /uar/local/
+  571  cd /usr/local/
+  572  ls
+  573  rz
+  574  ll
+  575  sudo tar -zxvf kibana-6.2.3-linux-x86_64.tar.gz -C /usr/local/
+  576  ll
+  577  ln -s /usr/local/kibana-6.2.3-linux-x86_64 /usr/local/kibana
+  578  rm -rf kibana-6.2.3-linux-x86_64.tar.gz 
+  579  vim kibana/config/kibana.yml 
+  580  groupadd elsearch
+  581  su elsearch
+  582  chown elsearch kibana
+  583  ll
+  584  su elsearch
+  585  chown elsearch kibana
+  586  ls
+  587  ll
+  588  rm -f kibana
+  589  ll
+  590  su elserch
+  591  su elsearch
+  592  ln -s /usr/local/kibana-6.2.3-linux-x86_64/ /usr/local/kibana
+  593  ll
+  594  docker ps
+  595  su elsearch
+  596  rm -rf /usr/local/kibana-6.2.3-linux-x86_64/optimize/.babelcache.json 
+  597  su elsearch
+  598  ll
+  599  cd kibana
+  600  ll
+  601  ./bin/kibana
+  602  ./kibana/bin/kibana &>/dev/null &
+  603  netstat -ln|grep 5601
+  604  netstat -lnp|grep 5601
+  605  netstat -lnp|grep 9200
+  606  ./bin/kibana &>/dev/null &
