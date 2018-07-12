@@ -34,9 +34,9 @@ mpl.rcParams['font.sans-serif'] = 'SimHei'
 mpl.rcParams['axes.unicode_minus'] = False
 
 #test
-es = Elasticsearch([{'host':'192.168.56.104', 'port':9200}])
+#es = Elasticsearch([{'host':'192.168.56.104', 'port':9200}])
 #online
-#es = Elasticsearch([{'host':'120.79.82.52', 'port':9200}])
+es = Elasticsearch([{'host':'120.79.82.52', 'port':9200}])
 indexs = str(time.strftime("%Y-%m"))
 indexslist = [indexs, indexs + 'php']
 logs.p(indexslist, fmt)
