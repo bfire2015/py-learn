@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-__title__ = ''
+__title__ = '55、密度最大值聚类算法MDCA与DBSCAN算法实战代码案例_笔记'
 __author__ = 'BfireLai'
 __mtime__ = '2018/7/11'
 """

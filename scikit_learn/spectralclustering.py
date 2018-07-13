@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-__title__ = ''
+__title__ = '56、谱聚类算法原理与scikit-learn API实战代码案例_笔记'
 __author__ = 'BfireLai'
 __mtime__ = '2018/7/11'
 """
