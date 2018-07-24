@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-__title__ = '68、SVM算法5个代码案例_加深理解SVM算法原理_笔记2'
+__title__ = '68、SVM算法5个代码案例_加深理解SVM算法原理_笔记4'
 __author__ = 'BfireLai'
-__mtime__ = '2018/7/13'
+__mtime__ = '2018/7/24'
 """
 
+import time
 import numpy as np
 import pandas as pd
 import matplotlib as mpl
@@ -15,8 +16,6 @@ import warnings
 from sklearn.svm import SVC #svm导入
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from sklearn.linear_model import LogisticRegression,RidgeClassifier
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.exceptions import ChangedBehaviorWarning
 
 #设置字符集,防止中文乱码
@@ -64,54 +63,86 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=28, test_
 # '''
 
 ## 数据SVM分类器构建
-svm = SVC(C=1, kernel='linear')
+svm1 = SVC(C=0.1, kernel='rbf')
+svm2 = SVC(C=1, kernel='rbf')
+svm3 = SVC(C=10, kernel='rbf')
+svm4 = SVC(C=100, kernel='rbf')
+svm5 = SVC(C=500, kernel='rbf')
+svm6 = SVC(C=100000, kernel='rbf')
+
 #clf = svm.SVC(C=1, kernel='rbf', gamma=0.1)
 #gamma值越大，训练集的拟合就越好，但是会造成过拟合，导致测试集拟合变差
 #gamma值越小，模型的泛化能力越好，训练集和测试集的拟合相近，但是会导致训练集出现欠拟合问题，
 #从而，准确率变低，导致测试集准确率也变低。
+
+
+#C越大，泛化能力越差，会出现过拟合的问题
+#C越小，泛化能力越好，但是容易出现欠拟合的问题
+
 ## 模型训练
-svm.fit(x_train, y_train)
-print(svm.intercept_)
-
-##linear分类器构建
-lr = LogisticRegression()
-rc = RidgeClassifier() #ridge是为了解决特征大于样本，而导致分类效果较差的情况，而提出的
-#svm有一个重要的瓶颈 ==当特征数大于样本数的时候，效果变差
-knn = KNeighborsClassifier()
-
-#模型训练
-lr.fit(x_train, y_train)
-rc.fit(x_train, y_train)
-knn.fit(x_train, y_train)
+t0 = time.time()
+svm1.fit(x_train, y_train)
+t1 = time.time()
+svm2.fit(x_train, y_train)
+t2 = time.time()
+svm3.fit(x_train, y_train)
+t3 = time.time()
+svm4.fit(x_train, y_train)
+t4 = time.time()
+svm5.fit(x_train, y_train)
+t5 = time.time()
+svm6.fit(x_train, y_train)
+t6 = time.time()
 
 ##效果评估
-svm_score1 = accuracy_score(y_train, svm.predict(x_train))
-svm_score2 = accuracy_score(y_test, svm.predict(x_test))
+svm1_score1 = accuracy_score(y_train, svm1.predict(x_train))
+svm1_score2 = accuracy_score(y_test, svm1.predict(x_test))
 
-lr_score1 = accuracy_score(y_train, lr.predict(x_train))
-lr_score2 = accuracy_score(y_test, lr.predict(x_test))
+svm2_score1 = accuracy_score(y_train, svm2.predict(x_train))
+svm2_score2 = accuracy_score(y_test, svm2.predict(x_test))
 
-rc_score1 = accuracy_score(y_train, rc.predict(x_train))
-rc_score2 = accuracy_score(y_test, rc.predict(x_test))
+svm3_score1 = accuracy_score(y_train, svm3.predict(x_train))
+svm3_score2 = accuracy_score(y_test, svm3.predict(x_test))
 
-knn_score1 = accuracy_score(y_train, knn.predict(x_train))
-knn_score2 = accuracy_score(y_test, knn.predict(x_test))
+svm4_score1 = accuracy_score(y_train, svm4.predict(x_train))
+svm4_score2 = accuracy_score(y_test, svm4.predict(x_test))
+
+svm5_score1 = accuracy_score(y_train, svm5.predict(x_train))
+svm5_score2 = accuracy_score(y_test, svm5.predict(x_test))
+
+svm6_score1 = accuracy_score(y_train, svm6.predict(x_train))
+svm6_score2 = accuracy_score(y_test, svm6.predict(x_test))
+
 
 #画图
-x_tmp = [0, 1, 2, 3]
-y_score1 = [svm_score1, lr_score1, rc_score1, knn_score1]
-y_score2 = [svm_score2, lr_score2, rc_score2, knn_score2]
+x_tmp = [0, 1, 2, 3, 4, 5]
+t_score = [t1 - t0, t2- t1,  t3- t2, t4-t3, t5-t4, t6-t5]
+y_score1 = [svm1_score1, svm2_score1, svm3_score1, svm4_score1, svm5_score1, svm6_score1]
+y_score2 = [svm1_score2, svm2_score2, svm3_score2, svm4_score2, svm5_score2, svm6_score2]
 
-plt.figure(facecolor='w')
+plt.figure(facecolor='w', figsize=(12, 6))
+
+plt.subplot(121)
 plt.plot(x_tmp, y_score1, 'r-', lw=2, label='训练集准确率')
 plt.plot(x_tmp, y_score2, 'g-', lw=2, label='测试集准确率')
-plt.xlim(0, 3)
+plt.xlim(-0.3, 3.3)
 plt.ylim(np.min((np.min(y_score1), np.min(y_score2)))*0.9, np.max((np.max(y_score1), np.max(y_score2)))*1.1)
 plt.legend(loc='lower right')
-plt.title('鸢尾花数据不同分类器准确率比较', fontsize=16)
-plt.xticks(x_tmp, ['svm', 'logistic', 'ridge', 'knn'], rotation=0)
+plt.title('模型预测准确率比较', fontsize=13)
+plt.xticks(x_tmp, ['c-0.1', 'c-1', 'c-10', 'c-100', 'c-500', 'c-10000'], rotation=0)
 plt.grid(b=True)
+
+plt.subplot(122)
+plt.plot(x_tmp, t_score, 'b-', lw=2, label='模型训练时间')
+plt.xlim(-0.3, 3.3)
+plt.title('模型训练耗时', fontsize=13)
+plt.xticks(x_tmp, ['c-0.1', 'c-1', 'c-10', 'c-100', 'c-500', 'c-10000'], rotation=0)
+plt.grid(b=True)
+
+
+plt.suptitle('鸢尾花数据SVM分类器不同惩罚项系数模型比较', fontsize=18, color='r')
 plt.show()
+
 
 #画图比较
 N = 500
@@ -124,17 +155,23 @@ x1, x2 = np.meshgrid(t1, t2)
 grid_show = np.dstack((x1.flat, x2.flat))[0]#测试点
 
 ##获取各个不同算法的测试值
-svm_grid_hat = svm.predict(grid_show)  #预测分类值
-svm_grid_hat = svm_grid_hat.reshape(x1.shape)#使之与输入的形状相同
+svm1_grid_hat = svm1.predict(grid_show)  #预测分类值
+svm1_grid_hat = svm1_grid_hat.reshape(x1.shape)#使之与输入的形状相同
 
-lr_grid_hat = lr.predict(grid_show)
-lr_grid_hat = lr_grid_hat.reshape(x1.shape)
+svm2_grid_hat = svm2.predict(grid_show)
+svm2_grid_hat = svm2_grid_hat.reshape(x1.shape)
 
-rc_grid_hat = rc.predict(grid_show)
-rc_grid_hat = rc_grid_hat.reshape(x1.shape)
+svm3_grid_hat = svm3.predict(grid_show)
+svm3_grid_hat = svm3_grid_hat.reshape(x1.shape)
 
-knn_grid_hat = knn.predict(grid_show)
-knn_grid_hat = knn_grid_hat.reshape(x1.shape)
+svm4_grid_hat = svm4.predict(grid_show)
+svm4_grid_hat = svm4_grid_hat.reshape(x1.shape)
+
+svm5_grid_hat = svm5.predict(grid_show)
+svm5_grid_hat = svm5_grid_hat.reshape(x1.shape)
+
+svm6_grid_hat = svm6.predict(grid_show)
+svm6_grid_hat = svm6_grid_hat.reshape(x1.shape)
 
 
 
@@ -142,10 +179,27 @@ cm_light = mpl.colors.ListedColormap(['#00ffcc', '#ffa0a0', '#a0a0ff'])
 cm_dark = mpl.colors.ListedColormap(['g', 'r', 'b'])
 plt.figure(facecolor='w', figsize=(14, 7))
 
+##linnear-svm
+plt.subplot(231)
+##区域图
+plt.pcolormesh(x1, x2, svm1_grid_hat, cmap=cm_light)
+##所有样本点
+plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
+##测试数据集
+plt.scatter(x_test[0], x_test[1], s=120, facecolors='none', zorder=10) #圈中测试样本
+##lable列表
+plt.xlabel(iris_feature[0], fontsize=13)
+plt.ylabel(iris_feature[1], fontsize=13)
+plt.xlim(x1_min, x1_max)
+plt.ylim(x2_min, x2_max)
+plt.title('鸢尾花数据SVM-c0.1分类', fontsize=16)
+plt.grid(b=True, ls=':')
+plt.tight_layout(pad=1.5)
+
 ##svm
-plt.subplot(221)
+plt.subplot(232)
 ##区域图
-plt.pcolormesh(x1, x2, svm_grid_hat, cmap=cm_light)
+plt.pcolormesh(x1, x2, svm2_grid_hat, cmap=cm_light)
 ##所有样本点
 plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
 ##测试数据集
@@ -155,14 +209,14 @@ plt.xlabel(iris_feature[0], fontsize=13)
 plt.ylabel(iris_feature[1], fontsize=13)
 plt.xlim(x1_min, x1_max)
 plt.ylim(x2_min, x2_max)
-plt.title('鸢尾花数据SVM分类', fontsize=16)
+plt.title('鸢尾花数据svm-c1分类', fontsize=16)
 plt.grid(b=True, ls=':')
 plt.tight_layout(pad=1.5)
 
-##logistic
-plt.subplot(222)
+##poly-svm
+plt.subplot(233)
 ##区域图
-plt.pcolormesh(x1, x2, svm_grid_hat, cmap=cm_light)
+plt.pcolormesh(x1, x2, svm3_grid_hat, cmap=cm_light)
 ##所有样本点
 plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
 ##测试数据集
@@ -172,14 +226,14 @@ plt.xlabel(iris_feature[0], fontsize=13)
 plt.ylabel(iris_feature[1], fontsize=13)
 plt.xlim(x1_min, x1_max)
 plt.ylim(x2_min, x2_max)
-plt.title('鸢尾花数据logistic分类', fontsize=16)
+plt.title('鸢尾花数svm-c10分类', fontsize=16)
 plt.grid(b=True, ls=':')
 plt.tight_layout(pad=1.5)
 
-##ridge
-plt.subplot(223)
+##sigmoid
+plt.subplot(234)
 ##区域图
-plt.pcolormesh(x1, x2, lr_grid_hat, cmap=cm_light)
+plt.pcolormesh(x1, x2, svm4_grid_hat, cmap=cm_light)
 ##所有样本点
 plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
 ##测试数据集
@@ -189,14 +243,14 @@ plt.xlabel(iris_feature[0], fontsize=13)
 plt.ylabel(iris_feature[1], fontsize=13)
 plt.xlim(x1_min, x1_max)
 plt.ylim(x2_min, x2_max)
-plt.title('鸢尾花数据ridge分类', fontsize=16)
+plt.title('鸢尾花数据svm-c100分类', fontsize=16)
 plt.grid(b=True, ls=':')
 plt.tight_layout(pad=1.5)
 
-##ridge
-plt.subplot(224)
+##sigmoid
+plt.subplot(235)
 ##区域图
-plt.pcolormesh(x1, x2, rc_grid_hat, cmap=cm_light)
+plt.pcolormesh(x1, x2, svm5_grid_hat, cmap=cm_light)
 ##所有样本点
 plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
 ##测试数据集
@@ -206,8 +260,26 @@ plt.xlabel(iris_feature[0], fontsize=13)
 plt.ylabel(iris_feature[1], fontsize=13)
 plt.xlim(x1_min, x1_max)
 plt.ylim(x2_min, x2_max)
-plt.title('鸢尾花数据knn分类', fontsize=16)
+plt.title('鸢尾花数据svm-c500分类', fontsize=16)
 plt.grid(b=True, ls=':')
 plt.tight_layout(pad=1.5)
 
+##sigmoid
+plt.subplot(236)
+##区域图
+plt.pcolormesh(x1, x2, svm6_grid_hat, cmap=cm_light)
+##所有样本点
+plt.scatter(x[0], x[1], c=y, edgecolors='k', s=50, cmap=cm_dark) #样本
+##测试数据集
+plt.scatter(x_test[0], x_test[1], s=120, facecolors='none', zorder=10) #圈中测试样本
+##lable列表
+plt.xlabel(iris_feature[0], fontsize=13)
+plt.ylabel(iris_feature[1], fontsize=13)
+plt.xlim(x1_min, x1_max)
+plt.ylim(x2_min, x2_max)
+plt.title('鸢尾花数据svm-c10000分类', fontsize=16)
+plt.grid(b=True, ls=':')
+plt.tight_layout(pad=1.5)
+
+plt.suptitle(u'鸢尾花数据SVM分类器不同C参数效果比较', fontsize=16, color='r')
 plt.show()
